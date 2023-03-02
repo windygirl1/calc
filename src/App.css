@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.convert {
+  width: 100%;
+  max-width: 400px;
+  height: 450px;
+  background-color: #a0a5a9;
+  position: absolute;
+  margin-top: 900px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 64px rgb(0 0 0 / 30%);
+}
+.convert span {
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.usd {
+  width: 200px;
+  height: 120px;
+  border: 1px solid #787878;
+  margin: 16px auto;
+  border-radius: 10px;
+}
